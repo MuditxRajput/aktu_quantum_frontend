@@ -10,6 +10,7 @@ import Disclaimer from "./Pages/Disclaimer";
 import Fottter from "./Pages/Fottter";
 import Homepage from "./Pages/Homepage";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import Sitemap from "./Pages/Sitemap";
 import AdminRoutes from "./Routes/AdminRoutes";
 import store from "./Store/configStore";
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/Disclaimer" element={<Disclaimer/>} />
           <Route path="/Privacy" element={<PrivacyPolicy/>} />
           <Route path="/Home" element={<Homepage/>} />
+          <Route path="/Sitemap.xml" element={<Sitemap/>} />
           {/* <Route path="/login" element={<LoginPage/>} /> */}
           {/* <Route path="/forgetPassword" element = {<ForgetPassword/>}  /> */}
           <Route path="/dashboard" element ={<AdminRoutes/>}>
