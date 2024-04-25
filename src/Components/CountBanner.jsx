@@ -36,7 +36,7 @@ const CountBanner = () => {
       </div>
       <div>
         <p className=" text-2xl sm:text-2xl">100+</p>
-        <p className="text-xs sm:text-sm">Pdf soon..</p>
+      
       </div>
     </div>
   );
