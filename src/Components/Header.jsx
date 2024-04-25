@@ -4,10 +4,9 @@ import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import Logo from '../Images/Aktu_Quantum.png';
 import { setMobileMenu } from '../Slices/UserSlice';
-import HeaderButton from './HeaderButton';
 import NavMenu from './NavMenu';
 const Header = () => {
-    const user = JSON.parse(localStorage.getItem("user"));
+    // const user = JSON.parse(localStorage.getItem("user"));
     const navigate = useNavigate();
     const[isOpen,setIsOpen] = useState(false);
     const dispatch = useDispatch();
@@ -29,23 +28,16 @@ const Header = () => {
         </div>
         <div className='flex  sm:w-[700px] justify-evenly items-center  text-md '>
             <NavMenu/>
-            {
-                user? 
-                (<div className=' flex gap-6 text-black'>
-                   {/* {user["name"]} */}
-                   <HeaderButton text = "Logged out" />
-                </div>)
-                :<div className=' flex gap-6'>
-            <HeaderButton text = "Sign Up"  />
-            <HeaderButton text = "Sign In"/>
-            </div>
-            }
-            {/* {
-                user && <div className=' flex gap-6'>
-                User
-                </div>
-            } */}
-           
+            {/* { */}
+                {/* user?  */}
+                {/* (<div className=' flex gap-6 text-black'> */}
+                   {/* <HeaderButton text = "Logged out" /> */}
+                {/* </div>) */}
+                {/* :<div className=' flex gap-6'> */}
+            {/* <HeaderButton text = "Sign Up"  /> */}
+            {/* <HeaderButton text = "Sign In"/> */}
+            {/* </div> */}
+            {/* } */}
             <div className='text-black sm:hidden text-3xl cursor-pointer'>
                 <IoMdMenu onClick={toggleMenu}/>
             </div>

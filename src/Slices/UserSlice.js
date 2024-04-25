@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const UserSlice=  createSlice({
     name:"User",
-    initialState:{mobileMenu:false,pdfData:[],searchPdf:[],query:null,user:false,pdfView:null},
+    initialState:{mobileMenu:false,pdfData:[],searchPdf:[],query:null,user:false,pdfView:null,yearPdf:[]},
     reducers: {
     setMobileMenu: (state, action) => {
         state.mobileMenu = action.payload;
@@ -21,11 +21,14 @@ const UserSlice=  createSlice({
     },
     setPdfView :(state,action)=>{
         state.pdfView = action.payload;
+    },
+    setYearPdf:(state,action)=>{
+        state.yearPdf = action.payload;
     }
     
 }
 
 })
 
-export const {setPdfView,setUser, setUserQuery,setSearchPdf,setMobileMenu,setPdfData} = UserSlice.actions
+export const {setYearPdf,setPdfView,setUser, setUserQuery,setSearchPdf,setMobileMenu,setPdfData} = UserSlice.actions
 export default UserSlice.reducer;
