@@ -12,7 +12,7 @@ const View = () => {
    <div
     style={{
         border: '1px solid rgba(0, 0, 0, 0.3)',
-        height: '630px',
+        height: '750px',
     }}
 >
     <Viewer fileUrl={pdf} />

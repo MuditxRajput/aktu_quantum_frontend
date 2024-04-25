@@ -5,7 +5,7 @@ const CountBanner = () => {
   const[students,setStudents] = useState(0);
   const hitApi=async(req,res)=>{
     try {
-      const response = await fetch(`https://quantum-backend-1.onrender.com/user/totalStudents`,{
+      const response = await fetch(`https://aktu-quantum-backend.onrender.com/user/totalStudents`,{
         method:"GET",
       })
       const val = await response.json();
