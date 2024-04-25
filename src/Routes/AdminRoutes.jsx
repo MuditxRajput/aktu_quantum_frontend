@@ -10,7 +10,7 @@ const AdminRoutes = () => {
             const token = localStorage.getItem("token");
             // console.log(token);
             if(!token) throw new Error("User is not authenticated")
-           const response =  await fetch(`https://quantum-backend-1.onrender.com/admin/auth`,{
+           const response =  await fetch(`https://aktu-quantum-backend.onrender.com/admin/auth`,{
                 method:"POST",
                 headers:{
                     "Content-Type" :"application/json",

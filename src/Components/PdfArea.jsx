@@ -17,7 +17,7 @@ const PdfArea = () => {
   const hitApi = async () => {
     try {
       const response = await fetch(
-        `https://quantum-backend-1.onrender.com/admin/numberOfPdf`,
+        `https://aktu-quantum-backend.onrender.com/admin/numberOfPdf`,
         {
           method: "GET",
         }

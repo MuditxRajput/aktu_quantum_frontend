@@ -26,7 +26,7 @@ const AddPdf = () => {
       console.log(formData);
     
     try {
-      const response = await fetch(`https://quantum-backend-1.onrender.com/admin/addPdf`, {
+      const response = await fetch(`https://aktu-quantum-backend.onrender.com/admin/addPdf`, {
         method: "POST",
         headers: {
         //   "Content-Type": "application/json",
