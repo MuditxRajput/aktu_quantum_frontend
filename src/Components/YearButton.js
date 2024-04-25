@@ -12,9 +12,10 @@ const YearButton = () => {
         const res = await fetch(`https://aktu-quantum-backend.onrender.com/pdf/${yearData}`,{
             method:"GET",
         })
-        console.log(res);
+       
         const pdfData = await res.json();
         // console.log(pdfData);
+        console.log(pdfData.getPdfFromDb);
         dispatch(setYearPdf(pdfData.getPdfFromDb))
     } catch (error) {
         
