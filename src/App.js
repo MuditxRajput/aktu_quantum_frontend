@@ -2,7 +2,7 @@
 import { Provider } from "react-redux";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
-import PdfView from "./Components/PdfView";
+import View from "./Components/View";
 import AboutUs from "./Pages/AboutUs";
 import AddPdf from "./Pages/AddPdf";
 import Contact from "./Pages/Contact";
@@ -31,7 +31,8 @@ const App = () => {
           <Route path="/dashboard" element ={<AdminRoutes/>}>
              <Route path="" element={<AddPdf/>} />
           </Route>
-          <Route path="/view" element = {<PdfView/>} /> 
+          {/* <Route path="/view" element = {<PdfView/>} />  */}
+          <Route path="/view" element = {<View/>} /> 
         </Routes>
         <Fottter/>
       </BrowserRouter>
