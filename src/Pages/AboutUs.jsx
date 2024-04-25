@@ -9,9 +9,9 @@ const AboutUs = () => {
       {isOpen && <MobileMenu />}
       <div className="flex flex-col justify-center items-center ">
         <div>
-          <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          <h1 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             About Us
-          </h2>
+          </h1>
         </div>
         <div className="  m-5">
           <p class="mt-4  text-lg text-black">
