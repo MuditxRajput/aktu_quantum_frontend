@@ -8,7 +8,7 @@ const Sitemap = () => {
   useEffect(() => {
     const fetchSitemap = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/sitemap.xml');
+        const response = await axios.get('https://aktu-quantum-backend.onrender.com/sitemap.xml');
         setSitemap(response.data);
       } catch (error) {
         console.error('Error fetching sitemap:', error);
