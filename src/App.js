@@ -6,6 +6,7 @@ import View from "./Components/View";
 import AboutUs from "./Pages/AboutUs";
 import AddPdf from "./Pages/AddPdf";
 import Contact from "./Pages/Contact";
+import CustomePage from "./Pages/CustomePage";
 import Disclaimer from "./Pages/Disclaimer";
 import Fottter from "./Pages/Fottter";
 import Homepage from "./Pages/Homepage";
@@ -28,6 +29,8 @@ const App = () => {
           <Route path="/Privacy" element={<PrivacyPolicy/>} />
           <Route path="/Home" element={<Homepage/>} />
           <Route path="/Sitemap.xml" element={<Sitemap/>} />
+          <Route path="/*" element={<CustomePage/>} />
+
           {/* <Route path="/login" element={<LoginPage/>} /> */}
           {/* <Route path="/forgetPassword" element = {<ForgetPassword/>}  /> */}
           <Route path="/dashboard" element ={<AdminRoutes/>}>
