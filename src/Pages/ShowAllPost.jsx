@@ -23,7 +23,8 @@ function BlogList() {
     }, []);
 
     const showPostHandle = (name, id) => {
-        navigate(`/post/${name}`, { state: { id: id } });
+        const formattedName = name.toLowerCase().replace(/[\s\|]+/g, '-');
+        navigate(`/post/${formattedName}`, { state: { id: id } });
     };
 
     return (
