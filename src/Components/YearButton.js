@@ -1,38 +1,30 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { setYearPdf } from "../Slices/UserSlice";
+import { setShimmer, setYearPdf } from "../Slices/UserSlice";
 
 const YearButton = () => {
     const dispatch = useDispatch();
   const year = [1, 2, 3, 4];
   const getYearWisePdf=async(yearData)=>{
         try {
-        // hit api...
-        // console.log(`http://localhost:8000/pdf/${yearData}`);
+
         const res = await fetch(`https://aktu-quantum-backend.onrender.com/pdf/${yearData}`,{
             method:"GET",
         })
        
         const pdfData = await res.json();
-        // console.log(pdfData);
-        console.log(pdfData.getPdfFromDb);
+ 
         dispatch(setYearPdf(pdfData.getPdfFromDb))
+       
     } catch (error) {
         
     }
   }
   const onClickHandle=(year)=>
   {
+    dispatch(setShimmer(true));
     getYearWisePdf(year);
-    // try {
-    //     // hit api...
-    //     const res = fetch(`http://localhost:8000/pdf/${year}`,{
-    //         method:"GET",
-    //     })
-    //     const pdfData = await 
-    // } catch (error) {
-        
-    // }
+
   }
   return (
     <div>

@@ -30,6 +30,7 @@ const MobileMenu = () => {
     <div className=" absolute w-full z-10 text-black bg-white outline-none border-none flex justify-center ">
       <ul className="  flex flex-col sm:gap-10 text-black font-Roboto font-semibold ">
         {/* <MenuItem text="Home" /> */}
+        <MenuItem text="Post" />
         <MenuItem text="About" />
         <MenuItem text="Contact" />
         <MenuItem text="Privacy" />

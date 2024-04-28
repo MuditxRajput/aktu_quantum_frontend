@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { toast } from "react-toastify";
 
 const AddPdf = () => {
  const[pdfName,setPdfName] = useState("");
@@ -36,7 +35,6 @@ const AddPdf = () => {
       });
       const val = await response.json();
       // toast.success(val.msg)
-    toast.success(val.msg)
     setPdfName("");
     setPdfSem("");
     setPdfYear("");

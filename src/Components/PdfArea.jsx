@@ -2,15 +2,15 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import pdfImage from "../Images/pdf.png";
+import Shimmer from "../Pages/Shimmer";
 import { setPdfData } from "../Slices/UserSlice";
 const PdfArea = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  // const [selectedPdfUrl, setSelectedPdfUrl] = useState(null);
-  // const [userInfo, setUserInfo] = useState();
-  // const searchQuery = useSelector((state) => state.user?.searchPdf);
+  // const[loading,isLoading] = useState(false)
   const searchItem = useSelector((state) => state.user?.query);
   const yearWishPdf = useSelector((state) => state.user?.yearPdf);
+  const shimmer = useSelector((state)=>state.user?.shimmer);
   const finalPdf = yearWishPdf?.filter((val) =>
     val?.pdfName.toLowerCase().includes(searchItem?.toLowerCase())
   );
@@ -24,6 +24,7 @@ const PdfArea = () => {
       );
       const val = await response.json();
       dispatch(setPdfData(val.numberOfPdf));
+      // isLoading(true);
     } catch (error) {
       console.log(error);
     }
@@ -36,7 +37,8 @@ const PdfArea = () => {
   const handlePdfClick = (pdfUrl) => {
     navigate("/view", { state: { pdfUrl: pdfUrl } });
   };
-
+  if(yearWishPdf.length===0 && finalPdf.length===0 && shimmer===false ) return <div className="px-5 text-red-600 font-semibold">Click on Year wise button to get pdf</div>
+  if(shimmer === true && yearWishPdf.length===0) return <Shimmer/>
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 m-3 p-5 gap-2 md:gap-7">
       {searchItem === null || searchItem ==='' ? (

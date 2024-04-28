@@ -6,13 +6,15 @@ import View from "./Components/View";
 import AboutUs from "./Pages/AboutUs";
 import AddPdf from "./Pages/AddPdf";
 import Contact from "./Pages/Contact";
+import CreatePost from "./Pages/CreatePost";
 import CustomePage from "./Pages/CustomePage";
 import Disclaimer from "./Pages/Disclaimer";
 import Fottter from "./Pages/Fottter";
 import Homepage from "./Pages/Homepage";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import ShowAllPost from "./Pages/ShowAllPost";
+import ShowSinglePost from "./Pages/ShowSinglePost";
 import Sitemap from "./Pages/Sitemap";
-import AdminRoutes from "./Routes/AdminRoutes";
 import store from "./Store/configStore";
 const App = () => {
   return (
@@ -29,13 +31,17 @@ const App = () => {
           <Route path="/Privacy" element={<PrivacyPolicy/>} />
           <Route path="/Home" element={<Homepage/>} />
           <Route path="/Sitemap.xml" element={<Sitemap/>} />
+          <Route path="/post" element={<ShowAllPost/>} />
           <Route path="/*" element={<CustomePage/>} />
+          <Route path="/post/:name" element={<ShowSinglePost/>} />
+          <Route path="/addPdf" element={<AddPdf/>} />
 
           {/* <Route path="/login" element={<LoginPage/>} /> */}
           {/* <Route path="/forgetPassword" element = {<ForgetPassword/>}  /> */}
-          <Route path="/dashboard" element ={<AdminRoutes/>}>
-             <Route path="" element={<AddPdf/>} />
+          <Route path="/dashboard" element ={<CreatePost/>}>
+             {/* <Route path="" element={<AddPdf/>} /> */}
           </Route>
+          
           {/* <Route path="/view" element = {<PdfView/>} />  */}
           <Route path="/view" element = {<View/>} /> 
         </Routes>

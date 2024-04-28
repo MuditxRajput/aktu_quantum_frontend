@@ -15,7 +15,7 @@ const Hero = () => {
           Free<span className="text-orange-600 hover:text-orange-700 "> AKTU Quantum</span>  <br></br>Study Guides <br></br>Ace Your Exams <br></br> Last Minute.
           </h1>
           <p className=" text-sm sm:text-md">
-          Dive into AKTU quantum with our website, offering free AKTU quantum PDFs.<br></br> Explore comprehensive resources for free quantum PDFs. <br></br>Get your AKTU quantum solutions hassle-free!
+          Dive into AKTU quantum pdf with our website, offering free AKTU quantum PDFs.<br></br> Explore comprehensive resources for free quantum PDFs. <br></br>Get your AKTU quantum solutions hassle-free!<br></br> Get all year aktu quantum pdf download.
           </p>
           {/* <div className="flex">
             <HeaderButton  text="Sign Up" />

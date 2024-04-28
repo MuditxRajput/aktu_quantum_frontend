@@ -5,7 +5,6 @@ const AdminRoutes = () => {
     const navigate = useNavigate();
     const[ok,setOk] = useState(false);
     const hitApi=async(req,res)=>{
-        console.log("Hit");
          try {
             const token = localStorage.getItem("token");
             // console.log(token);
