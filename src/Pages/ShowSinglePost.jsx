@@ -49,8 +49,20 @@ const ShowSinglePost = () => {
             element.style.color = 'blue'; // Set the color to blue
             element.style.textDecoration = 'underline'; // Underline to indicate it's a link
         });
+        // Style lists
+        doc.querySelectorAll('ul, ol').forEach(element => {
+            element.style.marginLeft = '20px'; // Add some left margin for indentation
+            element.style.fontSize = '0.9em'; // Slightly smaller font size
+        });
+        // Style list items
+        doc.querySelectorAll('li').forEach(element => {
+            element.style.listStyleType = 'disc'; // Use disc as the bullet point style
+            element.style.marginBottom = '5px'; // Add some spacing between list items
+        });
+    
         return doc.body.innerHTML;
     };
+    
 
     useEffect(() => {
         getPost();
