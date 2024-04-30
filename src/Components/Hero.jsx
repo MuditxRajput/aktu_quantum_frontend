@@ -1,4 +1,5 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import image from '../Images/quantum_image.jpg';
 import { setUser } from "../Slices/UserSlice";
@@ -6,6 +7,14 @@ const Hero = () => {
   const user = localStorage.getItem('user');
   const dispatch = useDispatch();
   dispatch(setUser(JSON.parse(user)));
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      axios.get('https://aktu-quantum-backend.onrender.com/call/fake');
+    }, 5000);
+
+    // Clean up the interval when the component unmounts
+    return () => clearInterval(intervalId);
+  }, []); 
   return (
     <div className="flex flex-col sm:flex-row  h-[450px]">
       <div className=" p-1  flex flex-col flex-1   justify-center items-center">
