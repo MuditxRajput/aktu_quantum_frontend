@@ -26,7 +26,7 @@ const NavMenu = () => {
     <div className="hidden sm:block">
       <ul className="flex sm:gap-10 text-black font-Roboto font-semibold cursor-pointer">
         {/* <MenuItem text="Home" /> */}
-        <MenuItem text="Post" />
+        {/* <MenuItem text="Post" /> */}
         <MenuItem text="About" />
         <MenuItem text="Contact" />
         <MenuItem text="Privacy" />

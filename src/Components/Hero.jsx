@@ -10,6 +10,8 @@ const Hero = () => {
        const response = await fetch(`https://aktu-quantum-backend.onrender.com/pdf/1`,{
           method: "GET",
         })
+        const val =await response.json();
+        console.log(val);
         
   }
   useEffect(() => {
