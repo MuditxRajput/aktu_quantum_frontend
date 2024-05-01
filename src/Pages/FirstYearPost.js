@@ -1,8 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { NavLink, useNavigate } from "react-router-dom";
 const FirstYearPost = () => {
   const navigate = useNavigate();
   return (
+    <>
+    <Helmet>
+      <meta charSet="utf-8" />
+                <title>Free AKTU Quantum PDFs for 1st Year Students</title>
+                <meta name="description" content="Free AKTU Quantum PDFs for 1st Year Students,Are you a first-year student at AKTU (Dr. A.P.J. Abdul Kalam Technical University), eager to excel in your academic journey?" />
+                <link rel="canonical" href="https://www.aktu-quantum.online/Free-AKTU-Quantum-PDFs-for-1st-Year-Students" />
+      </Helmet>
+  
     <div className="m-7 rounded-md shadow-sm shadow-gray-700 p-10">
       <div>
         <h1 className="font-bold text-2xl mb-2">
@@ -108,6 +117,7 @@ const FirstYearPost = () => {
         </button>
       </div>
     </div>
+    </>
   );
 };
 

@@ -1,11 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { useSelector } from "react-redux";
 import MobileMenu from "../Components/MobileMenu";
-
 const AboutUs = () => {
   const isOpen = useSelector((state) => state.user?.mobileMenu);
   return (
     <>
+    <Helmet>
+      <meta charSet="utf-8" />
+                <title>About us - - Aktu Quantum</title>
+                <meta name="description" content="Unlock free AKTU Quantum's, for 1st, 2nd, 3rd, 4th year aktu quantum pdf in free. Access now!" />
+                <link rel="canonical" href="https://www.aktu-quantum.online/about" />
+      </Helmet>
       {isOpen && <MobileMenu />}
       <div className="flex flex-col justify-center items-center ">
         <div>

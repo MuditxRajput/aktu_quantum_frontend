@@ -1,7 +1,15 @@
 import React from "react";
-
+import { Helmet } from "react-helmet";
 const Disclaimer = () => {
   return (
+    <>
+  <Helmet>
+      <meta charSet="utf-8" />
+                <title>Disclaimer - Aktu Quantum</title>
+                <meta name="description" content="Unlock free AKTU Quantum's, for 1st, 2nd, 3rd, 4th year aktu quantum pdf in free. Access now!" />
+                <link rel="canonical" href="https://www.aktu-quantum.online/about" />
+      </Helmet>
+   
     <div className="container px-4 py-8">
       <div className="bg-white rounded-lg shadow-md p-6">
         <h1 className="text-3xl font-bold mb-4">Disclaimer for aktu-quantum</h1>
@@ -72,6 +80,7 @@ const Disclaimer = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 export default Disclaimer;
