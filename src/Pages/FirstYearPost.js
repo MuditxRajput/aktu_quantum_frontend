@@ -105,7 +105,7 @@ const FirstYearPost = () => {
       <div>
         <button
           className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-1 px-4 rounded m-4"
-          onClick={() => navigate("/post")}
+          onClick={() => navigate("/")}
         >
           Back
         </button>
