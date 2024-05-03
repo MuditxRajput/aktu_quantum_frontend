@@ -9,7 +9,12 @@ const NavMenu = () => {
       if (text === "Request-pdf") {
         // Open Google Form link in a new tab
         window.open("https://forms.gle/oQQsVT4LukgyNXgP9", "_blank");
-      } else {
+      }
+      else if(text==='Post')
+      {
+          navigate('/Free-AKTU-Quantum-PDFs-for-1st-Year-Students')
+      } 
+      else {
         // Navigate to the corresponding route
         navigate(`/${text.toLowerCase()}`);
       }
@@ -26,7 +31,7 @@ const NavMenu = () => {
     <div className="hidden sm:block">
       <ul className="flex sm:gap-10 text-black font-Roboto font-semibold cursor-pointer">
         {/* <MenuItem text="Home" /> */}
-        {/* <MenuItem text="Post" /> */}
+        <MenuItem text="Post" />
         <MenuItem text="About" />
         <MenuItem text="Contact" />
         <MenuItem text="Privacy" />
