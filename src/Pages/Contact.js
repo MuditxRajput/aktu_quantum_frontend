@@ -1,13 +1,15 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
+import { useNavigate } from "react-router-dom";
 const Contact = () => {
+  const navigate = useNavigate();
   return (
     <>
     <Helmet>
       <meta charSet="utf-8" />
                 <title>Contact us - Aktu Quantum</title>
                 <meta name="description" content="Unlock free AKTU Quantum's, for 1st, 2nd, 3rd, 4th year aktu quantum pdf in free. Access now!" />
-                <link rel="canonical" href="https://www.aktu-quantum.online/about" />
+                <link rel="canonical" href="https://www.aktu-quantum.online/contact" />
       </Helmet>
     
     <section class="">
@@ -30,6 +32,12 @@ const Contact = () => {
             <button type="submit" class="py-3 px-5 text-sm bg-orange-600 font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
         </form>
     </div>
+    <button
+          className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-1 px-4 rounded m-4"
+          onClick={() => navigate("/Free-AKTU-Quantum-PDFs-for-1st-Year-Students")}
+        >
+          Back
+        </button>
   </section>
   </>
   )

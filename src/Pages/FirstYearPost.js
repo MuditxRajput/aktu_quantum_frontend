@@ -9,7 +9,7 @@ const FirstYearPost = () => {
       <meta charSet="utf-8" />
                 <title>Free AKTU Quantum PDFs for 1st Year Students</title>
                 <meta name="description" content="Free AKTU Quantum PDFs for 1st Year Students,Are you a first-year student at AKTU (Dr. A.P.J. Abdul Kalam Technical University), eager to excel in your academic journey?" />
-                <link rel="canonical" href="https://www.aktu-quantum.online/" />
+                <link rel="canonical" href="https://www.aktu-quantum.online/Free-AKTU-Quantum-PDFs-for-1st-Year-Students" />
       </Helmet>
   
     <div className="m-7 rounded-md shadow-sm shadow-gray-700 p-10">

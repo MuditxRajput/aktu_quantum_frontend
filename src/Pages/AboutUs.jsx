@@ -1,8 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import MobileMenu from "../Components/MobileMenu";
 const AboutUs = () => {
+  const navigate = useNavigate();
   const isOpen = useSelector((state) => state.user?.mobileMenu);
   return (
     <>
@@ -46,6 +48,12 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
+      <button
+          className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-1 px-4 rounded m-4"
+          onClick={() => navigate("/Free-AKTU-Quantum-PDFs-for-1st-Year-Students")}
+        >
+          Back
+        </button>
     </>
   );
 };

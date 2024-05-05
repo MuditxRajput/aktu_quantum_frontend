@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
         />
         <link
           rel="canonical"
-          href="https://www.aktu-quantum.online/Free-AKTU-Quantum-PDFs-for-1st-Year-Students"
+          href="https://www.aktu-quantum.online/privacy"
         />
       </Helmet>
 
@@ -258,7 +258,7 @@ const PrivacyPolicy = () => {
               target="_blank"
             >
               Free Privacy Policy website
-            </a>{" "}
+            </a>
             article.
           </p>
           <br></br>
