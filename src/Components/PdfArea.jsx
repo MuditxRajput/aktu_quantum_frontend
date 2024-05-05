@@ -9,9 +9,10 @@ const PdfArea = () => {
   const navigate = useNavigate();
   // const[loading,isLoading] = useState(false)
   const searchItem = useSelector((state) => state.user?.query);
+  const searchPdf = useSelector((state)=>state.user?.searchPdf);
   const yearWishPdf = useSelector((state) => state.user?.yearPdf);
   const shimmer = useSelector((state)=>state.user?.shimmer);
-  const finalPdf = yearWishPdf?.filter((val) =>
+  const finalPdf = searchPdf?.filter((val) =>
     val?.pdfName.toLowerCase().includes(searchItem?.toLowerCase())
   );
   const hitApi = async () => {

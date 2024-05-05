@@ -8,7 +8,6 @@ const AddPdf = () => {
   
   const onSubmitHandle = async (e) => {
     // console.log(pdfData);
-    const token = localStorage.getItem("token");
     e.preventDefault();
    
     const formData = new FormData();
@@ -19,21 +18,16 @@ const AddPdf = () => {
     if (pdf) {
         formData.append("pdf", pdf[0]); // Append the first file from the selected files array
       }
-    for (var pair of formData.entries()) {
-        console.log(pair[0] + ', ' + pair[1]); // Log key-value pairs
-      }
+  
       console.log(formData);
     
     try {
       const response = await fetch(`https://aktu-quantum-backend.onrender.com/admin/addPdf`, {
         method: "POST",
-        headers: {
-        //   "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
         body:(formData),
       });
       const val = await response.json();
+      console.log(val);
       // toast.success(val.msg)
     setPdfName("");
     setPdfSem("");
