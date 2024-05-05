@@ -13,8 +13,6 @@ import FirstYearPost from "./Pages/FirstYearPost";
 import Fottter from "./Pages/Fottter";
 import Homepage from "./Pages/Homepage";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
-import ShowAllPost from "./Pages/ShowAllPost";
-import ShowSinglePost from "./Pages/ShowSinglePost";
 import store from "./Store/configStore";
 const App = () => {
   return (
@@ -31,9 +29,9 @@ const App = () => {
           <Route path="/Privacy" element={<PrivacyPolicy/>} />
           {/* <Route path="/Home" element={<Homepage/>} /> */}
           {/* <Route path="/Sitemap.xml" element={<Sitemap/>} /> */}
-          <Route path="/post" element={<ShowAllPost/>} />
+          {/* <Route path="/post" element={<ShowAllPost/>} /> */}
           <Route path="/*" element={<CustomePage/>} />
-          <Route path="/post/:name" element={<ShowSinglePost/>} />
+          {/* <Route path="/post/:name" element={<ShowSinglePost/>} /> */}
           <Route path="/addPdf" element={<AddPdf/>} />
           <Route path="/Free-AKTU-Quantum-PDFs-for-1st-Year-Students" element = {<FirstYearPost/>} />
 
