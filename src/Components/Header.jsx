@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <>
     <div className=' m-1 flex   text-white justify-between'>
-        <div className='   text-xl sm:text-3xl text-black cursor-pointer' onClick={()=>{navigate('/home')}}>
+        <div className='   text-xl sm:text-3xl text-black cursor-pointer' onClick={()=>{navigate('/')}}>
             <img src={Logo} alt='logo' className=' mt-2 ml-1  w-[120px] md:w-[200px]'/>
         </div>
         <div className='flex  sm:w-[700px] justify-evenly items-center  text-md '>
