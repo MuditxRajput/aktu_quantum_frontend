@@ -13,7 +13,11 @@ const NavMenu = () => {
       else if(text==='Post')
       {
           navigate('/Free-AKTU-Quantum-PDFs-for-1st-Year-Students')
-      } 
+      }
+      else if(text==='Result')
+        {
+          navigate('/result')
+        }
       else {
         // Navigate to the corresponding route
         navigate(`/${text.toLowerCase()}`);
@@ -30,7 +34,7 @@ const NavMenu = () => {
   return (
     <div className="hidden sm:block">
       <ul className="flex sm:gap-10 text-black font-Roboto font-semibold cursor-pointer">
-        {/* <MenuItem text="Home" /> */}
+        <MenuItem text="Result" />
         <MenuItem text="Post" />
         <MenuItem text="About" />
         <MenuItem text="Contact" />

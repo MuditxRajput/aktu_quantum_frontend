@@ -12,6 +12,7 @@ import FirstYearPost from "./Pages/FirstYearPost";
 import Fottter from "./Pages/Fottter";
 import Homepage from "./Pages/Homepage";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import Result from "./Pages/Result";
 import store from "./Store/configStore";
 const App = () => {
   return (
@@ -41,7 +42,8 @@ const App = () => {
           {/* </Route> */}
           
           {/* <Route path="/view" element = {<PdfView/>} />  */}
-          <Route path="/view" element = {<View/>} /> 
+          <Route path="/view" element = {<View/>} />
+          <Route path="/result" element = {<Result/>}  />
         </Routes>
         <Fottter/>
       </BrowserRouter>
