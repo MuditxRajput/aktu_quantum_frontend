@@ -14,7 +14,7 @@ const Footer = () => {
             <NavLink to="/result" className="me-4 md:me-6">
               Result
             </NavLink>
-            <NavLink to="/Free-AKTU-Quantum-PDFs-for-1st-Year-Students" className="me-4 md:me-6">
+            <NavLink to="/first" className="me-4 md:me-6">
               Post
             </NavLink>
           </li>

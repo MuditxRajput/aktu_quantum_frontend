@@ -12,7 +12,7 @@ const NavMenu = () => {
       }
       else if(text==='Post')
       {
-          navigate('/Free-AKTU-Quantum-PDFs-for-1st-Year-Students')
+          navigate('/first')
       }
       else if(text==='Result')
         {

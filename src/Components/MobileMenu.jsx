@@ -13,7 +13,7 @@ const MobileMenu = () => {
           window.open("https://forms.gle/oQQsVT4LukgyNXgP9", "_blank");
       }else if(text==='Post')
       {
-          navigate('/Free-AKTU-Quantum-PDFs-for-1st-Year-Students')
+          navigate('/first')
       }
       else if(text==='Result')
         {
