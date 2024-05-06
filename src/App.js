@@ -33,7 +33,7 @@ const App = () => {
           <Route path="/*" element={<CustomePage/>} />
           {/* <Route path="/post/:name" element={<ShowSinglePost/>} /> */}
           <Route path="/addPdf" element={<AddPdf/>} />
-          <Route path="/Free-AKTU-Quantum-PDFs-for-1st-Year-Students" element = {<FirstYearPost/>} />
+          <Route path="/first" element = {<FirstYearPost/>} />
 
           {/* <Route path="/login" element={<LoginPage/>} /> */}
           {/* <Route path="/forgetPassword" element = {<ForgetPassword/>}  /> */}
