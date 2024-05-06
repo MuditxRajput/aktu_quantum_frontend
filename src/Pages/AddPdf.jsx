@@ -40,6 +40,7 @@ const AddPdf = () => {
   return (
     <div className="flex items-center justify-center p-12">
       <div className="mx-auto w-full max-w-[550px] bg-white">
+      <h1 className="text-black text-xl mb-5 ">Add pdf there</h1>
         <form method="POST" onSubmit={onSubmitHandle} encType="multipart/form-data">
           <div className="mb-5">
             <label

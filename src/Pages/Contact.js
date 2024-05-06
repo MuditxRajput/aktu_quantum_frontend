@@ -7,14 +7,14 @@ const Contact = () => {
     <>
     <Helmet>
       <meta charSet="utf-8" />
-                <title>Contact us - Aktu Quantum</title>
-                <meta name="description" content="Unlock free AKTU Quantum's, for 1st, 2nd, 3rd, 4th year aktu quantum pdf in free. Access now!" />
+                <title>Contact us - Free AKTU Quantum PDFs</title>
+                <meta name="description" content="This is the contact us Page of aktu Quantum " />
                 <link rel="canonical" href="https://www.aktu-quantum.online/contact" />
       </Helmet>
     
     <section class="">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-black ">Contact Us</h2>
+        <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-black ">Contact Us</h1>
         <p class="mb-8 lg:mb-16 font-light text-center text-black sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
         <form action="#" class="space-y-8">
             <div>

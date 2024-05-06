@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import pdfImage from "../Images/pdf.png";
@@ -41,6 +42,13 @@ const PdfArea = () => {
   if(yearWishPdf.length===0 && finalPdf.length===0 && shimmer===false ) return <div className="px-5 text-red-600 font-semibold">Click on Year wise button to get pdf</div>
   if(shimmer === true && yearWishPdf.length===0) return <Shimmer/>
   return (
+    <>
+       <Helmet>
+      <meta charSet="utf-8" />
+                <title>Disclaimer - Free AKTU Quantum PDFs </title>
+                <meta name="description" content=" Here we can add aktu quantum pdf.." />
+                <link rel="canonical" href="https://www.aktu-quantum.online/addpdf" />
+      </Helmet>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 m-3 p-5 gap-2 md:gap-7">
       {searchItem === null || searchItem ==='' ? (
         yearWishPdf?.map((val) => {
@@ -113,6 +121,8 @@ const PdfArea = () => {
         })
       )}
     </div>
+    </>
+   
   );
 };
 

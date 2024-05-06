@@ -10,16 +10,16 @@ const AboutUs = () => {
     <>
     <Helmet>
       <meta charSet="utf-8" />
-                <title>About us - - Aktu Quantum</title>
-                <meta name="description" content="Unlock free AKTU Quantum's, for 1st, 2nd, 3rd, 4th year aktu quantum pdf in free. Access now!" />
+                <title>About us - Free AKTU Quantum PDFs</title>
+                <meta name="description" content="Know more about Aktu Quantum free pdf Access now!" />
                 <link rel="canonical" href="https://www.aktu-quantum.online/about" />
       </Helmet>
       {isOpen && <MobileMenu />}
       <div className="flex flex-col justify-center items-center ">
         <div>
-          <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          <h1 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             About Us
-          </h2>
+          </h1>
         </div>
         <div className="  m-5">
           <p class="mt-4  text-lg text-black">

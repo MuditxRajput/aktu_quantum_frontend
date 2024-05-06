@@ -6,7 +6,6 @@ import View from "./Components/View";
 import AboutUs from "./Pages/AboutUs";
 import AddPdf from "./Pages/AddPdf";
 import Contact from "./Pages/Contact";
-import CreatePost from "./Pages/CreatePost";
 import CustomePage from "./Pages/CustomePage";
 import Disclaimer from "./Pages/Disclaimer";
 import FirstYearPost from "./Pages/FirstYearPost";
@@ -37,9 +36,9 @@ const App = () => {
 
           {/* <Route path="/login" element={<LoginPage/>} /> */}
           {/* <Route path="/forgetPassword" element = {<ForgetPassword/>}  /> */}
-          <Route path="/dashboard" element ={<CreatePost/>}>
+          {/* <Route path="/dashboard" element ={<CreatePost/>}> */}
              {/* <Route path="" element={<AddPdf/>} /> */}
-          </Route>
+          {/* </Route> */}
           
           {/* <Route path="/view" element = {<PdfView/>} />  */}
           <Route path="/view" element = {<View/>} /> 

@@ -5,10 +5,10 @@ const PrivacyPolicy = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Free AKTU Quantum PDFs for 1st Year Students</title>
+        <title>Privacy Policy - Free AKTU Quantum PDFs </title>
         <meta
           name="description"
-          content="Free AKTU Quantum PDFs for 1st Year Students,Are you a first-year student at AKTU (Dr. A.P.J. Abdul Kalam Technical University), eager to excel in your academic journey?"
+          content="This is the privacy policy of aktu Quantum for students"
         />
         <link
           rel="canonical"
@@ -35,7 +35,7 @@ const PrivacyPolicy = () => {
             Policy has been created with the help of the{" "}
             <a
               href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/"
-              target="_blank"
+              target="_blank" rel="noreferrer" 
             >
               Free Privacy Policy Generator
             </a>
@@ -255,7 +255,7 @@ const PrivacyPolicy = () => {
             the{" "}
             <a
               href="https://www.freeprivacypolicy.com/blog/sample-privacy-policy-template/#Use_Of_Cookies_And_Tracking"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Free Privacy Policy website
             </a>

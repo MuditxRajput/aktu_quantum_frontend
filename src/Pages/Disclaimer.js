@@ -5,8 +5,8 @@ const Disclaimer = () => {
     <>
   <Helmet>
       <meta charSet="utf-8" />
-                <title>Disclaimer - Aktu Quantum</title>
-                <meta name="description" content="Unlock free AKTU Quantum's, for 1st, 2nd, 3rd, 4th year aktu quantum pdf in free. Access now!" />
+                <title>Disclaimer - Free AKTU Quantum PDFs </title>
+                <meta name="description" content=" In this post you get to know all about the disclaimer of Aktu Quantum Access now!" />
                 <link rel="canonical" href="https://www.aktu-quantum.online/disclaimer" />
       </Helmet>
    
