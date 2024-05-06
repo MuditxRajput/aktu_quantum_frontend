@@ -11,27 +11,27 @@ const Footer = () => {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
           <li className="mb-3 md:mb-0">
-            <NavLink to="./home" className="me-4 md:me-6">
-              Home
+            <NavLink to="/Free-AKTU-Quantum-PDFs-for-1st-Year-Students" className="me-4 md:me-6">
+              post
             </NavLink>
           </li>
           <li className="mb-3 md:mb-0">
-            <NavLink to="./about" className="me-4 md:me-6">
+            <NavLink to="/about" className="me-4 md:me-6">
               About
             </NavLink>
           </li>
           <li className="mb-3 md:mb-0">
-            <NavLink to="./contact" className="me-4 md:me-6">
+            <NavLink to="/contact" className="me-4 md:me-6">
               Contact us
             </NavLink>
           </li>
           <li className="mb-3 md:mb-0">
-            <NavLink to="./privacy" className="me-4 md:me-6">
+            <NavLink to="/privacy" className="me-4 md:me-6">
               Privacy Policy
             </NavLink>
           </li>
           <li className="mb-3 md:mb-0">
-            <NavLink to="./disclaimer" className="me-4 md:me-6">
+            <NavLink to="/disclaimer" className="me-4 md:me-6">
               Disclaimer
             </NavLink>
           </li>

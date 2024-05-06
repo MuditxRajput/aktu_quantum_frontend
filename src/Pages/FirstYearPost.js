@@ -1,8 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const FirstYearPost = () => {
-  const navigate = useNavigate();
   return (
     <>
       <Helmet>
