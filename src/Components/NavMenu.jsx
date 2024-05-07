@@ -1,46 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const NavMenu = () => {
   const navigate = useNavigate();
+  const [isOpen, setIsOpen] = useState(false); // State to manage dropdown visibility
 
-  const MenuItem = React.memo(({ text }) => {
-    const handleClick = () => {
-      if (text === "Request-pdf") {
-        // Open Google Form link in a new tab
-        window.open("https://forms.gle/oQQsVT4LukgyNXgP9", "_blank");
-      }
-      else if(text==='Post')
-      {
-          navigate('/first')
-      }
-      else if(text==='Result')
-        {
-          navigate('/result')
-        }
-      else {
-        // Navigate to the corresponding route
-        navigate(`/${text.toLowerCase()}`);
-      }
-    };
-
+  const MenuItem = React.memo(({ text, onClick }) => {
     return (
-      <li className="hover:text-orange-600" onClick={handleClick}>
+      <li className="hover:text-orange-600 cursor-pointer" onClick={onClick}>
         {text}
       </li>
     );
   });
 
+  // Dropdown menu component
+  const DropdownMenu = () => (
+    <div className="relative">
+      <div onClick={() => setIsOpen(!isOpen)} className="hover:text-orange-600 cursor-pointer">
+        Important
+      </div>
+      {isOpen && (
+        <ul className="absolute bg-white shadow-lg mt-1 rounded">
+          <MenuItem text="Result" onClick={() => handleNavigate('/result')} />
+          <MenuItem text="Challenge" onClick={() => handleNavigate('/challenge')} />
+        </ul>
+      )}
+    </div>
+  );
+
+  // Navigation handler including closing the dropdown
+  const handleNavigate = (path) => {
+    setIsOpen(false); // Close dropdown when an item is clicked
+    navigate(path);
+  };
+
   return (
     <div className="hidden sm:block">
-      <ul className="flex sm:gap-10 text-black font-Roboto font-semibold cursor-pointer">
-        <MenuItem text="Result" />
-        <MenuItem text="Post" />
-        <MenuItem text="About" />
-        <MenuItem text="Contact" />
-        <MenuItem text="Privacy" />
-        <MenuItem text="Disclaimer" />
-        <MenuItem text="Request-pdf" />
+      <ul className="flex gap-10 text-black font-Roboto font-semibold">
+        <DropdownMenu />
+        <MenuItem text="Post" onClick={() => navigate('/first')} />
+        <MenuItem text="About" onClick={() => navigate('/about')} />
+        <MenuItem text="Contact" onClick={() => navigate('/contact')} />
+        <MenuItem text="Privacy" onClick={() => navigate('/privacy')} />
+        <MenuItem text="Disclaimer" onClick={() => navigate('/disclaimer')} />
+        <MenuItem text="Request-pdf" onClick={() => window.open("https://forms.gle/oQQsVT4LukgyNXgP9", "_blank")} />
       </ul>
     </div>
   );
