@@ -23,6 +23,7 @@ const NavMenu = () => {
         <ul className="absolute bg-white shadow-lg mt-1 rounded">
           <MenuItem text="Result" onClick={() => handleNavigate('/result')} />
           <MenuItem text="Challenge" onClick={() => handleNavigate('/challenge')} />
+          <MenuItem text="Quantums" onClick={() => handleNavigate('/aktuQuantum')} />
         </ul>
       )}
     </div>
