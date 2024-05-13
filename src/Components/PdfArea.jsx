@@ -45,7 +45,7 @@ const PdfArea = () => {
     <>
        <Helmet>
       <meta charSet="utf-8" />
-                <title>Disclaimer - Free AKTU Quantum PDFs </title>
+                <title>Aktu Free Quantum for B.Tech Students </title>
                 <meta name="description" content=" Here we can add aktu quantum pdf.." />
                 <link rel="canonical" href="https://www.aktu-quantum.online/addpdf" />
       </Helmet>
