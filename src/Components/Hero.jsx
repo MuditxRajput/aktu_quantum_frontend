@@ -28,7 +28,7 @@ const Hero = () => {
     <div className="flex flex-col sm:flex-row  h-[450px]">
       <div className=" p-1  flex flex-col flex-1   justify-center items-center">
         <div className=" flex flex-col gap-5 justify-center ">
-          <h1 className=" text-3xl sm:text-5xl font-semibold">
+          <h1 className=" text-xl sm:text-5xl font-semibold">
           {/* "Free AKTU Quantum Study Guides – Ace Your Exams Last Minute | StudyHelp" */}
           Free<span className="text-orange-600 hover:text-orange-700 "> AKTU Quantum</span>  <br></br>Study Guides <br></br>Ace Your Exams <br></br> Last Minute.
           </h1>
