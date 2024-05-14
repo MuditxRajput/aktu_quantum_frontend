@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import image from "../Images/quantum_image.jpg";
+import image from "../Images/quantum_image.webp";
 import { setUser } from "../Slices/UserSlice";
 const Hero = () => {
   const user = localStorage.getItem("user");
@@ -45,7 +45,9 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex flex-1  justify-center items-center">
-        <img src={image} alt="hero" className=" w-[140px] sm:w-[450px]" />
+        {/* <img src={image} alt="hero" className=" w-[140px] sm:w-[450px]" /> */}
+        <img src={image} alt="hero" className="w-[140px] sm:w-[450px]" loading="lazy" />
+
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { IoMdMenu } from "react-icons/io";
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import Logo from '../Images/Aktu_Quantum.png';
+import Logo from '../Images/Aktu_Quantum.webp';
 import { setMobileMenu } from '../Slices/UserSlice';
 import NavMenu from './NavMenu';
 const Header = () => {
