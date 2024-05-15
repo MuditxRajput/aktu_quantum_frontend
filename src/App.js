@@ -8,6 +8,7 @@ import AddPdf from "./Pages/AddPdf";
 import Contact from "./Pages/Contact";
 import CustomePage from "./Pages/CustomePage";
 import Disclaimer from "./Pages/Disclaimer";
+import Dmca from "./Pages/Dmca";
 import FirstYearPost from "./Pages/FirstYearPost";
 import Fottter from "./Pages/Fottter";
 import Homepage from "./Pages/Homepage";
@@ -48,6 +49,7 @@ const App = () => {
           <Route path="/result" element = {<Result/>}  />
           <Route path="/challenge" element = {<Challenge/>}  />
           <Route path="/aktuQuantum" element = {<Aktu_Quantum/>}  />
+          <Route path="/dmca" element = {<Dmca/>}  />
         </Routes>
         <Fottter/>
       </BrowserRouter>
