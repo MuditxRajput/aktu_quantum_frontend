@@ -5,14 +5,14 @@ const Dmca = () => {
     <>
     <Helmet>
         <meta charSet="utf-8" />
-        <title>Privacy Policy - Free AKTU Quantum PDFs </title>
+        <title>Dmca - Free AKTU Quantum PDFs </title>
         <meta
           name="description"
-          content="This is the privacy policy of aktu Quantum for students"
+          content="This is the dmca of aktu Quantum for students"
         />
         <link
           rel="canonical"
-          href="https://www.aktu-quantum.online/privacy"
+          href="https://www.aktu-quantum.online/dmca"
         />
       </Helmet>
     
