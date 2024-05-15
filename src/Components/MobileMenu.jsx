@@ -38,6 +38,7 @@ const MobileMenu = () => {
         <MenuItem text="Contact" onClick={() => navigate('/contact')} />
         <MenuItem text="Privacy" onClick={() => navigate('/privacy')} />
         <MenuItem text="Disclaimer" onClick={() => navigate('/disclaimer')} />
+        <MenuItem text="Dmca" onClick={() => navigate('/dmca')} />
         <MenuItem text="Request-pdf" onClick={() => window.open("https://forms.gle/oQQsVT4LukgyNXgP9", "_blank")} />
       </ul>
     </div>
