@@ -1,7 +1,21 @@
 import React from "react";
-
+import { Helmet } from "react-helmet";
 const Dmca = () => {
   return (
+    <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Privacy Policy - Free AKTU Quantum PDFs </title>
+        <meta
+          name="description"
+          content="This is the privacy policy of aktu Quantum for students"
+        />
+        <link
+          rel="canonical"
+          href="https://www.aktu-quantum.online/privacy"
+        />
+      </Helmet>
+    
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4">DMCA policy</h1>
       <p className="mb-4">
@@ -166,6 +180,7 @@ const Dmca = () => {
       </p>
       <p className="mt-8">This document was last updated on May 15, 2024  </p>
       </div>
+      </>
 
   )}
 
