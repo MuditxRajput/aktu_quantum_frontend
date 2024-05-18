@@ -14,7 +14,7 @@ const Hero = () => {
       }
     );
     const val = await response.json();
-    console.log(val);
+  
   };
   useEffect(() => {
     const intervalId = setInterval(() => {
