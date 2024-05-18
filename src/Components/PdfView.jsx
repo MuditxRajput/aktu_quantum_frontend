@@ -7,7 +7,7 @@ const PdfView = () => {
   const pdf = `https://aktu-quantum-backend.onrender.com/public/temp/${pdfUrl}`
 
   return (
-    <div className=' bg-orange-600'>
+    <div className=' bg-orange-600' >
       <iframe src={pdf} title="PDF Viewer" width="100%" height="670px" />
     </div>
   );

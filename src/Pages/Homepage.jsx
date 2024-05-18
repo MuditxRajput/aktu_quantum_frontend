@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { useSelector } from "react-redux";
+import BelowPdfView from "../Ads/BelowPdfView";
 import BelowYearWise from "../Ads/BelowYearWise";
 import Hero from "../Components/Hero";
 import HomepageSearch from "../Components/HomepageSearch";
@@ -32,6 +33,7 @@ const Homepage = () => {
       <div>{/* <HomepageDropbox/> */}</div>
       <div>
         <PdfArea />
+        <BelowPdfView/>
       </div>
     </>
   );
