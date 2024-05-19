@@ -58,9 +58,10 @@ const View = () => {
         <div className="w-full md:w-[120px] bg-gray-200 p-4 rounded-lg shadow-md flex items-center justify-center text-gray-700 font-semibold">
         <ins class="adsbygoogle"
      style={{display:"block"}}
-     data-ad-format="autorelaxed"
      data-ad-client="ca-pub-8884977910314227"
-     data-ad-slot="5237716241"></ins>
+     data-ad-slot="9850327795"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
         </div>
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
           <div className="flex-1 relative border border-gray-300 p-2 md:p-5 rounded-lg shadow-md bg-white overflow-auto">
@@ -78,9 +79,10 @@ const View = () => {
         <div className="w-full md:w-[120px] bg-gray-200 p-4 rounded-lg shadow-md flex items-center justify-center text-gray-700 font-semibold">
         <ins class="adsbygoogle"
      style={{display:"block"}}
-     data-ad-format="autorelaxed"
      data-ad-client="ca-pub-8884977910314227"
-     data-ad-slot="5237716241"></ins>
+     data-ad-slot="9850327795"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
         </div>
       </div>
     </>
