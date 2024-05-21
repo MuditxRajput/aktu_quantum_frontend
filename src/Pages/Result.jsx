@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import BelowPdfView from "../Ads/BelowPdfView";
 const Result = () => {
   return (
     <>
@@ -28,6 +29,9 @@ const Result = () => {
             need to follow to see your semester results. Here's how to verify
             your outcomes:
           </p>
+          <div>
+          <BelowPdfView/>
+        </div>
         </div>
         <div>
           <p className="text-xl font-semibold mb-1 mt-1   ">
@@ -71,6 +75,9 @@ const Result = () => {
             requested from you. To prevent any problem, please fill in the
             correct password and roll no.
           </p>
+          <div>
+          <BelowPdfView/>
+        </div>
           <p className="text-lg font-semibold mb-1 mt-1">
             Step 5: Enter your DOB and fill in the captcha
           </p>
@@ -102,6 +109,9 @@ const Result = () => {
             see your Aktu semester result in just a few steps. Hope you like the
             post.
           </p>
+        </div>
+        <div>
+          <BelowPdfView/>
         </div>
       </div>
     </>

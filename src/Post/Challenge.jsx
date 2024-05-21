@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import BelowPdfView from "../Ads/BelowPdfView";
 const Challenge = () => {
   return (
     <>
@@ -73,6 +74,9 @@ const Challenge = () => {
             relevant information, check these details twice as all details must
             be correct to fill the challenge Evaluation from Aktu in 2024.
           </p>
+          <div>
+          <BelowPdfView/>
+        </div>
           <p className="text-lg font-semibold mb-1 mt-1">
             Step 4: Clearly State the Reasons for Re-evaluation
           </p>
@@ -103,6 +107,9 @@ const Challenge = () => {
             of the data supplied and shows that the student is aware of the
             rules and regulations guiding the reevaluation procedure.
           </p>
+          <div>
+          <BelowPdfView/>
+        </div>
           <p className="text-lg font-semibold mb-1 mt-1">
             Step 7: Prompt Submission to Examination Cell
           </p>
@@ -138,6 +145,9 @@ const Challenge = () => {
             want to fill out the challenge Evaluation from Aktu in 2024.
           </p>
           <p> <a href="https://www.aktu-quantum.online/" className="text-orange-700 underline">Get all the Aktu quantum from here </a></p>
+        </div>
+        <div>
+          <BelowPdfView/>
         </div>
       </div>
     </>

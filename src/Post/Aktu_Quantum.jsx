@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import BelowPdfView from "../Ads/BelowPdfView";
 const Aktu_Quantum = () => {
   return (
     <>
@@ -35,11 +36,17 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
           </p>
         </div>
         <div>
+          <BelowPdfView/>
+        </div>
+        <div>
           <p className="text-xl font-semibold mb-4  mt-1   ">
             Let's see how to get the Aktu Quantum series in a few clicks, there
             are a few steps you have to follow to get all the Aktu Quantum
             series for all the years.
           </p>
+          <div>
+          <BelowPdfView/>
+        </div>
           <p className="text-lg font-semibold mb-1 mt-1">
             Step 1: Search for aktu-quatum.online on Google
           </p>
@@ -93,6 +100,7 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
             and read the quantum. If in our system pdf is not available, what to
             do here is a solution.
           </p>
+         
           <p className="text-lg font-semibold mb-1 mt-1">
             What if I can't get the Aktu quantum?
           </p>
@@ -128,6 +136,9 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
               Get all the Aktu quantum from here{" "}
             </a>
           </p>
+        </div>
+        <div>
+          <BelowPdfView/>
         </div>
       </div>
     </>

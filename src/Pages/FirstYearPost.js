@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
+import BelowPdfView from "../Ads/BelowPdfView";
 const FirstYearPost = () => {
   return (
     <>
@@ -32,6 +33,9 @@ const FirstYearPost = () => {
             for knowledge and success.
           </p>
           <br></br>
+          <div>
+          <BelowPdfView/>
+        </div>
           <p>
             At AKTU, we understand the importance of quality resources in
             shaping a student's academic path. That's why we have curated a
@@ -58,6 +62,9 @@ const FirstYearPost = () => {
             <NavLink to={"/"} className="text-blue-600">
               <li>electronic engineering quantum</li>{" "}
             </NavLink>
+            <div>
+          <BelowPdfView/>
+        </div>
             <NavLink to={"/"} className="text-blue-600">
               <li>engineering maths - 1 quantum</li>{" "}
             </NavLink>
@@ -89,6 +96,9 @@ const FirstYearPost = () => {
             can be challenging, but with the right tools and resources at your
             disposal, success is within reach.
           </p>
+          <div>
+          <BelowPdfView/>
+        </div>
           <br></br>
           <p>
             So, why wait? Take advantage of this opportunity to access
@@ -118,6 +128,9 @@ const FirstYearPost = () => {
           Get All Quantum
         </button>
       </div> */}
+      <div>
+          <BelowPdfView/>
+        </div>
       </div>
     </>
   );

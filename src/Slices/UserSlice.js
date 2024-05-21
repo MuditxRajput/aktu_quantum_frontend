@@ -11,6 +11,7 @@ const UserSlice = createSlice({
     pdfView: null,
     yearPdf: [],
     shimmer: false,
+    firstYear:[],
 
   },
   reducers: {
@@ -38,6 +39,9 @@ const UserSlice = createSlice({
     setShimmer: (state, action) => {
       state.shimmer = action.payload;
     },
+    setFirstYear:(state,action)=>{
+      state.firstYear = action.payload;
+    }
 
   },
 });
@@ -51,5 +55,6 @@ export const {
   setSearchPdf,
   setMobileMenu,
   setPdfData,
+  setFirstYear
 } = UserSlice.actions;
 export default UserSlice.reducer;
