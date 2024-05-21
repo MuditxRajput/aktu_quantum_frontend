@@ -1,8 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { useSelector } from "react-redux";
-import BelowPdfView from "../Ads/BelowPdfView";
-import BelowYearWise from "../Ads/BelowYearWise";
+import BelowButton from "../Ads/BelowButton";
 import Hero from "../Components/Hero";
 import HomepageSearch from "../Components/HomepageSearch";
 import MobileMenu from "../Components/MobileMenu";
@@ -25,7 +24,7 @@ const Homepage = () => {
       <div>
         {/* <CountBanner/> */}
         <YearButton />
-        <BelowYearWise/>
+       <BelowButton/>
       </div>
       <div className="mt-5">
         <HomepageSearch />
@@ -33,7 +32,7 @@ const Homepage = () => {
       <div>{/* <HomepageDropbox/> */}</div>
       <div>
         <PdfArea />
-        <BelowPdfView/>
+        <BelowButton/>
       </div>
     </>
   );

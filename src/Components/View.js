@@ -56,14 +56,14 @@ const View = () => {
      data-full-width-responsive="true"></ins>
       </div>
       <div className="flex flex-col md:flex-row h-[650px] md:h-[750px] space-y-2 md:space-y-0 md:space-x-2">
-        <div className="p-40 bg-gray-200 rounded-lg shadow-md flex items-center justify-center text-gray-700 font-semibold">
-        <ins class="adsbygoogle"
+      <div className="p-40 bg-blue-100 rounded-lg shadow-md text-center text-lg font-semibold text-blue-800 mb-4 md:mb-0">
+      <ins class="adsbygoogle"
      style={{display:"block"}}
      data-ad-client="ca-pub-8884977910314227"
      data-ad-slot="2568139117"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
-        </div>
+      </div>
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
           <div className="flex-1 relative border border-gray-300 p-2 md:p-5 rounded-lg shadow-md bg-white overflow-auto">
             {pdfUrl && (
