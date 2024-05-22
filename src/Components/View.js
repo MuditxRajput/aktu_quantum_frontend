@@ -62,7 +62,7 @@ const View = () => {
             )}
           </div>
         </Worker>
-        <div className="ads-container sidebar-ads hidden md:block w-[450px] bg-gray-200 p-4">
+        <div className="ads-container sidebar-ads hidden md:block w-[600px] bg-gray-200 p-4">
           {/* <div className="bg-red-500 w-[360px] h-[700px]">
               sidebar ads
           </div> */}
