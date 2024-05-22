@@ -21,11 +21,14 @@ const Homepage = () => {
       <div>
         <Hero />
       </div>
-      <div className=" hidden sm:block w-full bg-orange-600  ">
+      <div className=" hidden sm:block w-full bg-orange-600    ">
+      <div className="flex justify-center items-center">
       <ins class="adsbygoogle"
      style={{display:"inline-block",width:"728px",height:"90px"}}
      data-ad-client="ca-pub-8884977910314227"
      data-ad-slot="7435755744"></ins>
+      </div>
+    
       </div>
       <div className=" sm:hidden bg-orange-600 w-full  ">
     <ins class="adsbygoogle"
