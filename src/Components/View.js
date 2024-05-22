@@ -45,7 +45,7 @@ const View = () => {
           data-full-width-responsive="true"
         ></ins>
       </div>
-      <div>Download</div>
+      {/* <div>Download</div> */}
       <div className="ads-container mobile-ads md:hidden text-center p-2 bg-gray-200">
         <ins
           className="adsbygoogle"
