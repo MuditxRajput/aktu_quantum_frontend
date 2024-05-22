@@ -34,7 +34,10 @@ const Homepage = () => {
      data-ad-slot="6170775539"></ins>
       </div>
       <div className=" sm:hidden bg-orange-600 w-full  ">
-mob
+      <ins class="adsbygoogle"
+     style={{display:"inline-block",width:"340px",height:"90px"}}
+     data-ad-client="ca-pub-8884977910314227"
+     data-ad-slot="6170775539"></ins>
       </div>
       <div>
         {/* <CountBanner/> */}

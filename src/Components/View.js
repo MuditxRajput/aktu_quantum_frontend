@@ -36,25 +36,17 @@ const View = () => {
   return (
     <>
       <div className="ads-container top-ads text-center p-2 md:p-4 bg-gray-200">
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="ca-pub-8884977910314227"
-          data-ad-slot="3824013482"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
+      <ins class="adsbygoogle"
+     style={{display:"inline-block",width:"340px",height:"90px"}}
+     data-ad-client="ca-pub-8884977910314227"
+     data-ad-slot="6170775539"></ins>
       </div>
       {/* <div>Download</div> */}
       <div className="ads-container mobile-ads md:hidden text-center p-2 bg-gray-200">
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="ca-pub-8884977910314227"
-          data-ad-slot="3824013482"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
+      <ins class="adsbygoogle"
+     style = {{display:"inline-block",width:"340px",height:"90px"}}
+     data-ad-client="ca-pub-8884977910314227"
+     data-ad-slot="6170775539"></ins>
       </div>
       <div className="flex flex-col md:flex-row h-[650px] md:h-[750px] space-y-2 md:space-y-0 md:space-x-2">
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
@@ -71,12 +63,13 @@ const View = () => {
           </div>
         </Worker>
         <div className="ads-container sidebar-ads hidden md:block w-[450px] bg-gray-200 p-4">
-          <ins
-            className="adsbygoogle"
-            style={{ display: "inline-block", width: "200px", height: "500px" }}
-            data-ad-client="ca-pub-8884977910314227"
-            data-ad-slot="1722348348"
-          ></ins>
+          {/* <div className="bg-red-500 w-[360px] h-[700px]">
+              sidebar ads
+          </div> */}
+          <ins class="adsbygoogle"
+     style={{display:"inline-block",width:"360px",height:"700px"}}
+     data-ad-client="ca-pub-8884977910314227"
+     data-ad-slot="5153207333"></ins>
         </div>
       </div>
     </>
