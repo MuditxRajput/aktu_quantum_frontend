@@ -24,19 +24,17 @@ const Homepage = () => {
       <div className=" hidden sm:block w-full bg-orange-600    ">
       <div className="flex justify-center items-center">
       <ins class="adsbygoogle"
-     style={{display:"inline-block",width:"728px",height:"90px"}}
+     style={{display:"inline-block",width:"728px",height:"340px"}}
      data-ad-client="ca-pub-8884977910314227"
-     data-ad-slot="7435755744"></ins>
+     data-ad-slot="3927755576"></ins>
       </div>
-    
+      <ins class="adsbygoogle"
+     style={{display:"inline-block",width:"340px",height:"90px"}}
+     data-ad-client="ca-pub-8884977910314227"
+     data-ad-slot="6170775539"></ins>
       </div>
       <div className=" sm:hidden bg-orange-600 w-full  ">
-    <ins class="adsbygoogle"
-     style={{display:"block",background:"red"}}
-     data-ad-client="ca-pub-8884977910314227"
-     data-ad-slot="9477463712"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+mob
       </div>
       <div>
         {/* <CountBanner/> */}
