@@ -36,14 +36,14 @@ const View = () => {
   return (
     <>
       <div className="ads-container top-ads text-center p-2 md:p-4 bg-gray-200">
-      <ins class="adsbygoogle"
-     style={{display:"inline-block",width:"340px",height:"90px"}}
+      <ins className="adsbygoogle"
+     style= {{display:"inline-block",width:"728px",height:"90px"}}
      data-ad-client="ca-pub-8884977910314227"
-     data-ad-slot="6170775539"></ins>
+     data-ad-slot="2317546035"></ins>
       </div>
       {/* <div>Download</div> */}
       <div className="ads-container mobile-ads md:hidden text-center p-2 bg-gray-200">
-      <ins class="adsbygoogle"
+      <ins className="adsbygoogle"
      style = {{display:"inline-block",width:"340px",height:"90px"}}
      data-ad-client="ca-pub-8884977910314227"
      data-ad-slot="6170775539"></ins>
@@ -62,11 +62,8 @@ const View = () => {
             )}
           </div>
         </Worker>
-        <div className="ads-container sidebar-ads hidden md:block w-[450px] bg-gray-200 p-4">
-          {/* <div className="bg-red-500 w-[360px] h-[700px]">
-              sidebar ads
-          </div> */}
-          <ins class="adsbygoogle"
+        <div className="ads-container sidebar-ads hidden md:block  bg-gray-200 p-4">
+          <ins className="adsbygoogle"
      style={{display:"inline-block",width:"160px",height:"500px"}}
      data-ad-client="ca-pub-8884977910314227"
      data-ad-slot="3912864583"></ins>
