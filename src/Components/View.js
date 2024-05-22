@@ -67,9 +67,9 @@ const View = () => {
               sidebar ads
           </div> */}
           <ins class="adsbygoogle"
-     style={{display:"inline-block",width:"360px",height:"700px"}}
+     style={{display:"inline-block",width:"160px",height:"500px"}}
      data-ad-client="ca-pub-8884977910314227"
-     data-ad-slot="5153207333"></ins>
+     data-ad-slot="3912864583"></ins>
         </div>
       </div>
     </>
