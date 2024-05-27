@@ -16,6 +16,7 @@ import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import Result from "./Pages/Result";
 import Aktu_Quantum from "./Post/Aktu_Quantum";
 import Challenge from "./Post/Challenge";
+import ComputerNetworkPost from "./Post/ComputerNetworkPost";
 import WebTpdf from "./Post/WebTpdf";
 import store from "./Store/configStore";
 const App = () => {
@@ -52,6 +53,7 @@ const App = () => {
           <Route path="/aktuQuantum" element = {<Aktu_Quantum/>}  />
           <Route path="/dmca" element = {<Dmca/>}  />
           <Route path="/webt" element = {<WebTpdf/>}  />
+          <Route path="/cn" element = {<ComputerNetworkPost/>}  />
         </Routes>
         <Fottter/>
       </BrowserRouter>
