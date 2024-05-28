@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import BelowPdfView from "../Ads/BelowPdfView";
+import HomepageReturn from "../Components/HomepageReturn";
 const Aktu_Quantum = () => {
   return (
     <>
@@ -36,6 +37,7 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
           </p>
         </div>
         <div>
+          <HomepageReturn/>
           <BelowPdfView/>
         </div>
         <div>
@@ -127,15 +129,7 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
             post, we explain everything in detail on how you get the Aktu
             Quantum series in just a few clicks.
           </p>
-          <p>
-            {" "}
-            <a
-              href="https://www.aktu-quantum.online/"
-              className="text-orange-700 underline"
-            >
-              Get all the Aktu quantum from here{" "}
-            </a>
-          </p>
+         <HomepageReturn/>
         </div>
         <div>
           <BelowPdfView/>
