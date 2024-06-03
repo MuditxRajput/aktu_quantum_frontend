@@ -21,30 +21,30 @@ const Nlp = () => {
         />
         <link rel="canonical" href="https://www.aktu-quantum.online/nlp" />
       </Helmet>
-      <div className="m-[50px] sm:m-[120px] border-2 border-black flex flex-col sm:flex-row">
-        <div className="border-2 border-red-700 w-full sm:w-[876px] flex flex-col">
-          <div className="border-2 border-yellow-400 p-4">
+      <div className="m-[50px] sm:m-[120px]  flex flex-col sm:flex-row">
+        <div className=" w-full sm:w-[876px] flex flex-col">
+          <div className=" ">
             <h1 className="text-xl font-semibold">
               Natural Language Processing KOE-088 aktu quantum pdf [ free] |aktu
               quantum
             </h1>
           </div>
-          <div className="border-2 border-purple-500 p-4">
+          <div className="">
             <InBetweenPost_Responsive />
           </div>
-          <div className="p-4">
+          <div className="">
             <img src={logo} alt="Syllabus of aktu quantum nlp" />
           </div>
-          <div className="p-4">
+          <div className="">
             <InBetweenPost_Responsive />
           </div>
-          <div className="p-4">
+          <div className="">
             <HomepageReturn />
           </div>
-          <div className="p-4">
+          <div className="">
             <InBetweenPost_Responsive />
           </div>
-          <div className="p-4">
+          <div className="">
             <p>
               Hello mates, how are you, so the exam is there right and you are
               concerned about your exam, especially natural language processing
@@ -169,7 +169,7 @@ const Nlp = () => {
             </div>
           </div>
         </div>
-        <div className="border-2 border-green-600 w-full sm:w-[300px] flex flex-col p-4">
+        <div className=" w-full sm:w-[300px] flex flex-col ">
           <div className="mb-4"><InBetweenPost_Responsive/></div>
           <div>
            <ul>
