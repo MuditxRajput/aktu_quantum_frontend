@@ -48,7 +48,7 @@ const Homepage = () => {
         <div className="flex justify-center items-center">
           <ins
             className="adsbygoogle"
-            style={{ display: "inline-block", width: "340px", height: "90px" }}
+            style={{ display: "inline-block", width: "720px", height: "90px" }}
             data-ad-client="ca-pub-8884977910314227"
             data-ad-slot="6170775539"
           ></ins>
