@@ -23,12 +23,12 @@ const FakeRedirectPage = () => {
   }, []);
   return (
     <>
-   <div className='m-[50px] sm:m-[120px] border-2 border-black flex flex-col sm:flex-row'>
-        <div className='border-2 border-red-700 w-full sm:w-[876px] flex flex-col'>
-          <div className='border-2 border-yellow-400 p-4'>
+   <div className='m-[50px] sm:m-[120px]  flex flex-col sm:flex-row'>
+        <div className='  w-full sm:w-[876px] flex flex-col'>
+          <div className='  p-4'>
             <h1 className ="text-2xl font-semibold">Download all aktu quantum easily</h1>
           </div>
-          <div className='border-2 border-purple-500 p-4'>
+          <div className=' p-4'>
            <InBetweenPost_Responsive/>
           </div>
           <div className='p-4'>
@@ -39,7 +39,7 @@ const FakeRedirectPage = () => {
         {
             showButton && (
                 <button
-                className="bg-orange-600 text-white font-semibold px-2  rounded-md m-2 border-2 border-orange-700 shadow-md shadow-orange-300 "
+                className="bg-orange-600 text-white font-semibold px-2  rounded-md m-2 0 shadow-md shadow-orange-300 "
                 onClick={() => navigate("/redirect", { state: { pdfUrl: getUrl } })}
               >
                 {" "}
@@ -58,7 +58,7 @@ const FakeRedirectPage = () => {
             from our website. we cover 1st year, 2nd, 3rd year and 4th year aktu quantum.
           </div>
         </div>
-        <div className='border-2 border-green-600 w-full sm:w-[300px] flex flex-col p-4'>
+        <div className=' w-full sm:w-[300px] flex flex-col p-4'>
           <div className='mb-4'>
           <InBetweenPost_Responsive/>
           </div>
