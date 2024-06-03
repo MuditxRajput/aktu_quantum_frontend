@@ -4,7 +4,9 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import { zoomPlugin } from "@react-pdf-viewer/zoom";
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+import InBetweenPost_Responsive from "../Ads/InBetweenPost_Responsive";
+import RedirectButton from "./RedirectButton";
 
 const View = () => {
   const location = useLocation();
@@ -12,10 +14,11 @@ const View = () => {
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
   const zoomPluginInstance = zoomPlugin();
   const { Zoom } = zoomPluginInstance;
-
+  const[url,setUrl] = useState("");
   useEffect(() => {
     const fetchPdfUrl = async () => {
       const pdfUrl = location.state?.pdfUrl;
+      setUrl(pdfUrl);
       if (pdfUrl) {
         setPdfUrl(
           `https://aktu-quantum-backend.onrender.com/public/temp/${pdfUrl}`
@@ -48,7 +51,18 @@ const View = () => {
      data-ad-client="ca-pub-8884977910314227"
      data-ad-slot="6170775539"></ins>
       </div>
-      <div className="flex flex-col md:flex-row h-[650px] md:h-[750px] space-y-2 md:space-y-0 md:space-x-2">
+      <div>
+        <div>
+          <InBetweenPost_Responsive/>
+        </div>
+        <div className="flex justify-center items-center">
+          <RedirectButton url={url}/>
+        </div>
+        <div>
+        <InBetweenPost_Responsive/>
+        </div>
+      </div>
+      <div className=' border-1 border-black flex flex-col sm:flex-row gap-5'>
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
           <div className="flex-1 relative border border-gray-300 p-2 md:p-5 rounded-lg shadow-md bg-white overflow-auto">
             {pdfUrl && (
@@ -62,11 +76,29 @@ const View = () => {
             )}
           </div>
         </Worker>
-        <div className="ads-container sidebar-ads hidden md:block  bg-gray-200 p-4">
-          <ins className="adsbygoogle"
-     style={{display:"inline-block",width:"160px",height:"500px"}}
-     data-ad-client="ca-pub-8884977910314227"
-     data-ad-slot="3912864583"></ins>
+        <div className=' w-full sm:w-[300px] flex flex-col'>
+        <div className='mb-4'>
+          <InBetweenPost_Responsive/>
+          </div>
+          <div>
+           <ul>
+            <NavLink to={"/webt"}>
+              <li className="text-orange-600">Web t B.tech quantum pdf </li>
+            </NavLink>
+            <NavLink to={"/rts"}>
+              <li className="text-orange-600">Real time B.tech quantum pdf </li>
+            </NavLink>
+            <NavLink to={"/cn"}>
+              <li className="text-orange-600">Computer Network B.tech quantum pdf </li>
+            </NavLink>
+            <NavLink to={"/challenge"}>
+              <li className="text-orange-600">How to fill Challenge Evaluation in aktu </li>
+            </NavLink>
+           </ul>
+          </div>
+          <div className='mb-4'>
+          <InBetweenPost_Responsive/>
+          </div>
         </div>
       </div>
     </>

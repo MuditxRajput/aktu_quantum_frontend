@@ -29,7 +29,7 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
             <h1 className="font-semibold text-2xl mb-2">Aktu Quantum pdf 1st year, 2nd year, 3rd year, 4th year.</h1>
           </div>
           <div className='  '>
-            responsive ads
+          <InBetweenPost_Responsive/>
           </div>
           <div className=''>
           <p>
