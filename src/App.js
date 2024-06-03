@@ -19,6 +19,7 @@ import Challenge from "./Post/Challenge";
 import ComputerNetworkPost from "./Post/ComputerNetworkPost";
 import RealTimePost from "./Post/RealTimePost";
 import WebTpdf from "./Post/WebTpdf";
+import PostLayout from "./PostLayout/PostLayout";
 import store from "./Store/configStore";
 const App = () => {
   return (
@@ -56,6 +57,7 @@ const App = () => {
           <Route path="/webt" element = {<WebTpdf/>}  />
           <Route path="/cn" element = {<ComputerNetworkPost/>}  />
           <Route path="/rts" element = {<RealTimePost/>}  />
+          <Route path="/post" element = {<PostLayout/>}  />
         </Routes>
         <Fottter/>
       </BrowserRouter>

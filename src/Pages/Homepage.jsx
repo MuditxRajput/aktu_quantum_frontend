@@ -35,16 +35,16 @@ const Homepage = () => {
         <Hero />
       </div>
       <div className="hidden sm:block w-full bg-orange-600">
-        <div className="flex justify-center items-center">
-          <ins
+        <div className="flex justify-center items-center border-2 border-black">
+        <ins
             className="adsbygoogle"
-            style={{ display: "inline-block", width: "728px", height: "340px" }}
+            style={{ display: "inline-block", width: "340px", height: "90px" }}
             data-ad-client="ca-pub-8884977910314227"
-            data-ad-slot="3927755576"
+            data-ad-slot="6170775539"
           ></ins>
         </div>
       </div>
-      <div className="sm:hidden bg-orange-600 w-full">
+      <div className="sm:hidden bg-orange-600 w-full border-2 border-black">
         <div className="flex justify-center items-center">
           <ins
             className="adsbygoogle"
@@ -57,8 +57,24 @@ const Homepage = () => {
       <div>
         <YearButton />
       </div>
+      <div className="border-2 border-black">
+      <ins
+            className="adsbygoogle"
+            style={{ display: "inline-block", width: "340px", height: "90px" }}
+            data-ad-client="ca-pub-8884977910314227"
+            data-ad-slot="6170775539"
+          ></ins>
+      </div>
       <div className="mt-5">
         <HomepageSearch />
+      </div>
+      <div className="border-2 border-black">
+      <ins
+            className="adsbygoogle"
+            style={{ display: "inline-block", width: "340px", height: "90px" }}
+            data-ad-client="ca-pub-8884977910314227"
+            data-ad-slot="6170775539"
+          ></ins>
       </div>
       <div>
         <PdfArea />
