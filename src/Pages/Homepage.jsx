@@ -34,7 +34,7 @@ const Homepage = () => {
       <div>
         <Hero />
       </div>
-      <div className="hidden sm:block w-full bg-orange-600">
+      <div className="hidden sm:block w-full ">
         <div className="flex justify-center items-center">
         <ins class="adsbygoogle"
      style={{display:"block"}}
@@ -44,7 +44,7 @@ const Homepage = () => {
      data-full-width-responsive="true"></ins>
         </div>
       </div>
-      <div className=" bg-orange-600 w-full">
+      <div className="  w-full">
         <div className="flex justify-center items-center">
           <ins
             className="adsbygoogle"
@@ -57,8 +57,7 @@ const Homepage = () => {
       <div>
         <YearButton />
       </div>
-      <div className=" bg-orange-600 w-full">
-       
+      <div className="  w-full">
         <div className="flex justify-center items-center">
           <ins
             className="adsbygoogle"
@@ -70,6 +69,16 @@ const Homepage = () => {
       </div>
       <div className="mt-5">
         <HomepageSearch />
+      </div>
+      <div className="  w-full">
+        <div className="flex justify-center items-center">
+          <ins
+            className="adsbygoogle"
+            style={{ display: "inline-block", width: "300px", height: "90px" }}
+            data-ad-client="ca-pub-8884977910314227"
+            data-ad-slot="6170775539"
+          ></ins>
+        </div>
       </div>
       <div>
         <PdfArea />
