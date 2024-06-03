@@ -57,6 +57,16 @@ const Homepage = () => {
       <div>
         <YearButton />
       </div>
+      <div className="sm:hidden bg-orange-600 w-full">
+        <div className="flex justify-center items-center">
+          <ins
+            className="adsbygoogle"
+            style={{ display: "inline-block", width: "340px", height: "90px" }}
+            data-ad-client="ca-pub-8884977910314227"
+            data-ad-slot="6170775539"
+          ></ins>
+        </div>
+      </div>
       <div className="mt-5">
         <HomepageSearch />
       </div>
