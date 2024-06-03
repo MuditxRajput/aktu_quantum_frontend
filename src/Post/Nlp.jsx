@@ -39,7 +39,7 @@ const Nlp = () => {
             <InBetweenPost_Responsive />
           </div>
           <div className="">
-            <HomepageReturn />
+            <HomepageReturn name ="NLP" />
           </div>
           <div className="">
             <InBetweenPost_Responsive />
