@@ -19,6 +19,7 @@ import Result from "./Pages/Result";
 import Aktu_Quantum from "./Post/Aktu_Quantum";
 import Challenge from "./Post/Challenge";
 import ComputerNetworkPost from "./Post/ComputerNetworkPost";
+import Nlp from "./Post/Nlp";
 import RealTimePost from "./Post/RealTimePost";
 import WebTpdf from "./Post/WebTpdf";
 import store from "./Store/configStore";
@@ -60,6 +61,7 @@ const App = () => {
           <Route path="/rts" element = {<RealTimePost/>}  />
           <Route path="/redirect" element = {<RedirectPage/>}  />
           <Route path="/api" element = {<FakeRedirectPage/>}  />
+          <Route path="/nlp" element = {<Nlp/>}  />
 
           {/* <Route path="/post" element = {<PostLayout/>}  /> */}
         </Routes>
