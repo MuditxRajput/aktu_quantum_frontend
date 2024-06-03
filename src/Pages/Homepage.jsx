@@ -36,6 +36,7 @@ const Homepage = () => {
       </div>
       <div className="  w-full ">
         <div className="flex justify-center items-center">
+          
         <ins class="adsbygoogle"
      style={{display:"block"}}
      data-ad-client="ca-pub-8884977910314227"
@@ -46,6 +47,7 @@ const Homepage = () => {
       </div>
       <div className="  w-full">
         <div className="flex justify-center items-center">
+          
           <ins
             className="adsbygoogle"
             style={{ display: "inline-block", width: "720px", height: "90px" }}
@@ -72,12 +74,12 @@ const Homepage = () => {
       </div>
       <div className="  w-full">
         <div className="flex justify-center items-center">
-        <ins
-            className="adsbygoogle"
-            style={{ display: "inline-block", width: "720px", height: "90px" }}
-            data-ad-client="ca-pub-8884977910314227"
-            data-ad-slot="6170775539"
-          ></ins>
+        <ins class="adsbygoogle"
+     style={{display:"block"}}
+     data-ad-client="ca-pub-8884977910314227"
+     data-ad-slot="7420680973"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
         </div>
       </div>
       <div>
