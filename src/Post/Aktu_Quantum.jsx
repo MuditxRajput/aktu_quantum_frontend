@@ -23,7 +23,7 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
         />
       </Helmet>
 
-      <div className='m-[50px] sm:m-[120px] border-1 border-black flex flex-col sm:flex-row'>
+      <div className='m-[50px] sm:m-[120px] border-1 border-black flex flex-col sm:flex-row gap-5'>
         <div className=' w-full sm:w-[876px] flex flex-col'>
           <div className='  '>
             <h1 className="font-semibold text-2xl mb-2">Aktu Quantum pdf 1st year, 2nd year, 3rd year, 4th year.</h1>
@@ -137,7 +137,7 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
 
           </div>
         </div>
-        <div className=' w-full sm:w-[300px] flex flex-col '>
+        <div className=' w-full sm:w-[300px] flex flex-col  '>
           <div className='mb-4'>
           <InBetweenPost_Responsive/>
           </div>
@@ -155,9 +155,12 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
             <NavLink to={"/challenge"}>
               <li className="text-orange-600">How to fill Challenge Evaluation in aktu </li>
             </NavLink>
-            
            </ul>
           </div>
+          <div className='mb-4'>
+          <InBetweenPost_Responsive/>
+          </div>
+            
         </div>
       </div>
       <div>
