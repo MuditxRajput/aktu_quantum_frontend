@@ -1,9 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { NavLink, useNavigate } from "react-router-dom";
 import BelowPdfView from "../Ads/BelowPdfView";
 import InBetweenPost_Responsive from "../Ads/InBetweenPost_Responsive";
 import HomepageReturn from "../Components/HomepageReturn";
 const Aktu_Quantum = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Helmet>
@@ -24,7 +26,7 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
       <div className='m-[50px] sm:m-[120px] border-1 border-black flex flex-col sm:flex-row'>
         <div className=' w-full sm:w-[876px] flex flex-col'>
           <div className='  '>
-            <h1 className="font-semibold text-xl mb-2">Aktu Quantum pdf 1st year, 2nd year, 3rd year, 4th year.</h1>
+            <h1 className="font-semibold text-2xl mb-2">Aktu Quantum pdf 1st year, 2nd year, 3rd year, 4th year.</h1>
           </div>
           <div className='  '>
             responsive ads
@@ -38,15 +40,15 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
             beginner friendly, and responsive so that you can read the Aktu
             quantum on all devices, whether it is a laptop, mobile, or tablet.
           </p>
-          <div >
+          <div className="mt-2" >
            <InBetweenPost_Responsive/>
           </div>
           </div>
           <div className=''>
             <HomepageReturn/>
           </div>
-          <div className=''>
-            response ads
+          <div className='mt-2'>
+            <InBetweenPost_Responsive/>
           </div>
           <div className=''>
            <p className="text-xl font-semibold mb-4  mt-1   ">
@@ -137,11 +139,25 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
         </div>
         <div className=' w-full sm:w-[300px] flex flex-col '>
           <div className='mb-4'>
-           
+          <InBetweenPost_Responsive/>
           </div>
-          {/* <div>
-            Link for more pages
-          </div> */}
+          <div>
+           <ul>
+            <NavLink to={"/webt"}>
+              <li className="text-orange-600">Web t B.tech quantum pdf </li>
+            </NavLink>
+            <NavLink to={"/rts"}>
+              <li className="text-orange-600">Real time B.tech quantum pdf </li>
+            </NavLink>
+            <NavLink to={"/cn"}>
+              <li className="text-orange-600">Computer Network B.tech quantum pdf </li>
+            </NavLink>
+            <NavLink to={"/challenge"}>
+              <li className="text-orange-600">How to fill Challenge Evaluation in aktu </li>
+            </NavLink>
+            
+           </ul>
+          </div>
         </div>
       </div>
       <div>
