@@ -57,7 +57,8 @@ const Homepage = () => {
       <div>
         <YearButton />
       </div>
-      <div className="sm:hidden bg-orange-600 w-full">
+      <div className=" bg-orange-600 w-full">
+        show
         <div className="flex justify-center items-center">
           <ins
             className="adsbygoogle"
