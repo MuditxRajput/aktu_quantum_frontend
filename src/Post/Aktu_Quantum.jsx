@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import BelowPdfView from "../Ads/BelowPdfView";
+import InBetweenPost_Responsive from "../Ads/InBetweenPost_Responsive";
 import HomepageReturn from "../Components/HomepageReturn";
 const Aktu_Quantum = () => {
   return (
@@ -20,38 +21,40 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
         />
       </Helmet>
 
-      <div className="m-7 rounded-md shadow-sm shadow-gray-700 p-10">
-        <div className="mb-10">
-          <h1 className="font-bold text-3xl mb-2">
-            Aktu Quantum pdf 1st year, 2nd year, 3rd year, 4th year.
-          </h1>
-        </div>
-        <div className="mb-6">
+      <div className='m-[50px] sm:m-[120px] border-1 border-black flex flex-col sm:flex-row'>
+        <div className=' w-full sm:w-[876px] flex flex-col'>
+          <div className='  '>
+            <h1 className="font-semibold text-xl mb-2">Aktu Quantum pdf 1st year, 2nd year, 3rd year, 4th year.</h1>
+          </div>
+          <div className='  '>
+            responsive ads
+          </div>
+          <div className=''>
           <p>
             Hello everyone, In this article I will tell you about how you get
             all the Aktu quantum series from our website. Through our website,
-            you get all Aktu Quantum pdf in 1st year, 2nd year, 3rd year, 4h
+            you get all Aktu Quantum pdf in 1st year, 2nd year, 3rd year, 4th
             year, in just a few clicks. Our website is very easy to access
             beginner friendly, and responsive so that you can read the Aktu
             quantum on all devices, whether it is a laptop, mobile, or tablet.
           </p>
-        </div>
-        <div>
-          <HomepageReturn/>
-          <BelowPdfView/>
-        </div>
-        <div>
-          <p className="text-xl font-semibold mb-4  mt-1   ">
+          <div >
+           <InBetweenPost_Responsive/>
+          </div>
+          </div>
+          <div className=''>
+            <HomepageReturn/>
+          </div>
+          <div className=''>
+            response ads
+          </div>
+          <div className=''>
+           <p className="text-xl font-semibold mb-4  mt-1   ">
             Let's see how to get the Aktu Quantum series in a few clicks, there
             are a few steps you have to follow to get all the Aktu Quantum
             series for all the years.
           </p>
-          <div>
-          <BelowPdfView/>
-        </div>
-          <p className="text-lg font-semibold mb-1 mt-1">
-            Step 1: Search for aktu-quatum.online on Google
-          </p>
+          Step 1: Search for aktu-quatum.online on Google
           <p>
             The very first step you need to follow is, to go to Google and
             search aktu-quantum.online or you can{" "}
@@ -129,12 +132,21 @@ In this post, we explain everything in detail on how you get the Aktu Quantum se
             post, we explain everything in detail on how you get the Aktu
             Quantum series in just a few clicks.
           </p>
-         <HomepageReturn/>
+
+          </div>
         </div>
-        <div>
-          <BelowPdfView/>
+        <div className=' w-full sm:w-[300px] flex flex-col '>
+          <div className='mb-4'>
+           
+          </div>
+          {/* <div>
+            Link for more pages
+          </div> */}
         </div>
       </div>
+      <div>
+          <BelowPdfView/>
+        </div>
     </>
   );
 };
