@@ -34,7 +34,7 @@ const Homepage = () => {
       <div>
         <Hero />
       </div>
-      <div className="hidden sm:block w-full ">
+      <div className="  w-full ">
         <div className="flex justify-center items-center">
         <ins class="adsbygoogle"
      style={{display:"block"}}
@@ -72,9 +72,9 @@ const Homepage = () => {
       </div>
       <div className="  w-full">
         <div className="flex justify-center items-center">
-          <ins
+        <ins
             className="adsbygoogle"
-            style={{ display: "inline-block", width: "300px", height: "90px" }}
+            style={{ display: "inline-block", width: "720px", height: "90px" }}
             data-ad-client="ca-pub-8884977910314227"
             data-ad-slot="6170775539"
           ></ins>
