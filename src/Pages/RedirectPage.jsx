@@ -9,13 +9,13 @@ const RedirectPage = () => {
   return (
     <>
       <div className="flex flex-col sm:flex-row">
-        <div className="w-full sm:w-[300px] flex flex-col border-2 border-purple-600">
+        <div className="w-full sm:w-[300px] flex flex-col border-2 ">
         <InBetweenPost_Responsive/>
         </div>
         <div className=" bg-orange-600 flex-1 border-2 border-orange-500" >
           <iframe src={pdf} title="PDF Viewer" width="100%" height="670px" />
         </div>
-        <div className="w-full sm:w-[300px] flex flex-col  border-2 border-red-600">
+        <div className="w-full sm:w-[300px] flex flex-col  border-2 ">
         <InBetweenPost_Responsive/>
         </div>
       </div>
