@@ -36,12 +36,12 @@ const Homepage = () => {
       </div>
       <div className="hidden sm:block w-full bg-orange-600">
         <div className="flex justify-center items-center">
-          <ins
-            className="adsbygoogle"
-            style={{ display: "inline-block", width: "728px", height: "340px" }}
-            data-ad-client="ca-pub-8884977910314227"
-            data-ad-slot="3927755576"
-          ></ins>
+        <ins class="adsbygoogle"
+     style={{display:"block"}}
+     data-ad-client="ca-pub-8884977910314227"
+     data-ad-slot="7420680973"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
         </div>
       </div>
       <div className="sm:hidden bg-orange-600 w-full">
