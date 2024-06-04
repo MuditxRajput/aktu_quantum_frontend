@@ -21,6 +21,7 @@ import Challenge from "./Post/Challenge";
 import ComputerNetworkPost from "./Post/ComputerNetworkPost";
 import Nlp from "./Post/Nlp";
 import RealTimePost from "./Post/RealTimePost";
+import SoftSkill from "./Post/SoftSkill";
 import WebTpdf from "./Post/WebTpdf";
 import store from "./Store/configStore";
 const App = () => {
@@ -62,6 +63,7 @@ const App = () => {
           <Route path="/redirect" element = {<RedirectPage/>}  />
           <Route path="/api" element = {<FakeRedirectPage/>}  />
           <Route path="/nlp" element = {<Nlp/>}  />
+          <Route path="/softSkill" element = {<SoftSkill/>}  />
 
           {/* <Route path="/post" element = {<PostLayout/>}  /> */}
         </Routes>

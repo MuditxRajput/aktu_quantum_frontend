@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 const RedirectButton = ({ url }) => {
+  console.log(url);
   const navigate = useNavigate();
   return (
     <div className="flex justify-center items-start">
