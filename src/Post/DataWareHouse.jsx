@@ -84,9 +84,9 @@ const DataWareHouse = () => {
               </p>
               <p>
                 After clicking on the official website you are redirected to our
-                official website, where you see the years button as  KCS 603 comes under 3 years, you can click on the
-                3-year button and after clicking on the 3-year button, the pdf
-                section will be refreshed and all quantum is of 3 years. scroll
+                official website, where you see the years button as  KCS 603 comes under 4 years, you can click on the
+                4 year button and after clicking on the 3-year button, the pdf
+                section will be refreshed and all quantum is of 4 years. scroll
                 down and find the Data Warehousing & Data Mining (KOE-093) pdf, click
                 on and access it directly.
               </p>
