@@ -19,6 +19,7 @@ import Result from "./Pages/Result";
 import Aktu_Quantum from "./Post/Aktu_Quantum";
 import Challenge from "./Post/Challenge";
 import ComputerNetworkPost from "./Post/ComputerNetworkPost";
+import DataWareHouse from "./Post/DataWareHouse";
 import Nlp from "./Post/Nlp";
 import RealTimePost from "./Post/RealTimePost";
 import SoftSkill from "./Post/SoftSkill";
@@ -64,6 +65,7 @@ const App = () => {
           <Route path="/api" element = {<FakeRedirectPage/>}  />
           <Route path="/nlp" element = {<Nlp/>}  />
           <Route path="/softSkill" element = {<SoftSkill/>}  />
+          <Route path="/dwdm" element = {<DataWareHouse/>}  />
 
           {/* <Route path="/post" element = {<PostLayout/>}  /> */}
         </Routes>
